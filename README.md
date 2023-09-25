@@ -1,4 +1,4 @@
-# Cheez It Volume Prediction
+# Product Volume Prediction
 
 This repository contains a Linear Regression model used to predict the volume of "Cheez It" based on various other snack products.
 
@@ -18,20 +18,16 @@ The model ingests a dataset with sales volume of various snacks and aims to pred
 
 1. **Clone the Repository:**
     ```bash
-    git clone [repository-link]
+    git clone https://github.com/ibiggy9/Machine-Learning-Application-Canabalization-Prediction.git
     ```
-2. **Navigate to the Directory:**
-    ```bash
-    cd [repository-name]
-    ```
-3. **Install Required Libraries:** 
+2. **Install Required Libraries:** 
     ```bash
     pip install pandas numpy scikit-learn
     ```
 
 ## Usage
 
-To run the main script (assuming it's named `main.py`):
+To run the main script (assuming it's named `cannibalization.py`):
 
 ```bash
 python main.py
