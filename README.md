@@ -1,3 +1,37 @@
-# Cannibalization-Predictor
-This model ingests data from Nielsen datasets and uses a ordinary least squares lasso to assess which factors are the largest predictors of cannibalization on the product in question. It also provides a score for the amount of dollars cannibalized. 
+# Cheez It Volume Prediction
 
+This repository contains a Linear Regression model used to predict the volume of "Cheez It" based on various other snack products.
+
+## Description
+
+The model ingests a dataset with sales volume of various snacks and aims to predict the volume of "Cheez It" based on this data. The model is trained multiple times to ensure that the best accuracy is achieved.
+
+## Features
+
+- **Data Loading and Preprocessing:** Read the dataset and prepare it for the model.
+- **Linear Regression Model:** Utilizes Scikit-Learn to train a linear regression model.
+- **Model Accuracy:** Assesses model accuracy using metrics like Mean Absolute Error, Mean Squared Error, and Root Mean Squared Error.
+- **Model Saving:** The best-performing model is saved for potential future use.
+- **Cannibalization Scores:** Presents how much volume "Cheez It" sources from each other snack in the dataset.
+
+## Installation
+
+1. **Clone the Repository:**
+    ```bash
+    git clone [repository-link]
+    ```
+2. **Navigate to the Directory:**
+    ```bash
+    cd [repository-name]
+    ```
+3. **Install Required Libraries:** 
+    ```bash
+    pip install pandas numpy scikit-learn
+    ```
+
+## Usage
+
+To run the main script (assuming it's named `main.py`):
+
+```bash
+python main.py
